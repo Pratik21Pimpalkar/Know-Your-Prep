@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+.content {
+
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 10; */
+    /* min-width: 400px; */
+}
+
+.firsthead {
+    font-size: 9.3em;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+    line-height: 83px;
+    letter-spacing: -2px;
+    margin-top: 0.3rem;
+    visibility: visible;
+}
+.secondhead {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    color: transparent;
+    text-decoration: none;
+    line-height: 83px;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 83px;
+}
+
+.para {
+    height: auto;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    white-space: normal;
+    width: 30rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+
+.sidehead {
+    text-transform: uppercase;
+    height: auto;
+    width: auto;
+    color: rgb(211, 0, 255);
+    text-decoration: none;
+    white-space: normal;
+    text-align: left;
+    line-height: 21px;
+    letter-spacing: 7px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.btn-giveTest {
+    background: rgba(0, 0, 0, 0) linear-gradient(90deg, rgb(229, 0, 255) 0%, rgb(130, 0, 255) 100%) repeat scroll 0% 0%;
+    font-family: "Poppins";
+    margin-top: 0.9rem;
+    margin-right: 0.6rem;
+    text-transform: uppercase;
+    height: auto;
+    color: rgb(255, 255, 255);
+    transition: all ease 0.5s;
+    text-decoration: none;
+    white-space: normal;
+    width: 10rem;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(103, 0, 255, 0.4) 0px 10px 60px 0px;
+    padding: 4px 0px;
+    border-radius: 300px;
+    /* filter: brightness(100%); */
+    visibility: visible;
+}
+.btn-giveTest:hover{
+    transform: scale(1.09);
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        overflow-x: hidden;
+    }
+
+.secondhead{
+    margin-bottom: 1rem;
+}
+    .btn-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .sidehead{
+        text-align: center;
+        position: relative;
+        bottom: 30rem;
+        font-size: 14px;
+    }
+    .heroName{
+        text-align: center;
+        position: relative;
+        bottom: 31rem;
+    }
+    .firsthead{
+        font-size: 2.5rem;
+        margin-right: 0.4rem;
+    }
+    .secondhead{
+        font-size: 2.5rem;
+    }
+    .para{
+        position: relative;
+        text-align: center;
+        bottom: 15rem;
+        width: auto;
+    }
+    .btn-giveTest{
+        position:relative;
+        bottom: 13rem;
+        left: 7rem;
+        outline: none;
+        border: none;
+
+      }
+}
+@media screen and (max-width: 400px) {
+    .sidehead{
+        text-align: center;
+        position: relative;
+        bottom: 30rem;
+        font-size: 12px;
+    }
+    .heroName{
+        text-align: center;
+        position: relative;
+        bottom: 31rem;
+    }
+    .firsthead{
+        font-size: 2rem;
+        margin-right: 0.4rem;
+    }
+    .secondhead{
+        font-size: 2rem;
+    }
+    .para{
+        position: relative;
+        text-align: center;
+        bottom: 15rem;
+        width: auto;
+    }
+    .btn-giveTest{
+        position:relative;
+        bottom: 13rem;
+        left: 6rem;
+        outline: none;
+        border: none;
+
+      }
+}

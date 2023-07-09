@@ -1,0 +1,85 @@
+.banner-container-1{
+    flex-direction: column;
+    box-shadow: 0 5px 10px #0005;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(-55deg, #10143f 29%,#0f143c 29.1%, #201a5c 68%, #0f143c 68.1%);
+    justify-content: center;
+}
+
+.banner-container-1 .banner-1{
+    /* background:linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%); */
+    /* background: linear-gradient(-55deg, #10143f 29%,#0f143c 29.1%, #201a5c 68%, #0f143c 68.1%); */
+
+    border-radius: 5px;
+    margin:10px;
+    margin-bottom: 0;
+    display: flex;
+    width: 100%;
+    padding:1.2rem ;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.banner-container-1 .banner-1 .content{
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    flex:1;
+    left: 3rem;
+    /* padding:10px; */
+    /* text-transform: uppercase; */
+}
+
+.banner-container-1 .banner-1 .content span{
+    color:#eee;
+    font-size: 25px;
+}
+
+.banner-container-1 .banner-1 .content h3{
+    color:#fff;
+    font-size: 40px;
+}
+
+.banner-container-1 .banner-1 .content p{
+    color:#eee;
+    font-size: 20px;
+    padding:10px 0;
+}
+
+.banner-container-1 .banner-1 .content .btn{
+    display: block;
+    height:40px;
+    width:150px;
+    line-height: 40px;
+    background: #fff;
+    color:#d63031;
+    margin:5px auto;
+    text-decoration: none;
+}
+
+.banner-container-1 .banner-1 .women{
+    position: relative;
+    bottom: -56px;
+    /* padding:10px; */
+    left: 4rem;
+    /* flex:1 1 250px; */
+}
+
+.banner-container-1 .banner-1 .women img{
+    width:80%;
+}
+
+@media (max-width:768px){
+    .banner-container-1 .banner-1 .women{
+        display: none;
+    }
+    .banner-container-1 .banner-1 .content{
+        left: 0;
+    }
+}

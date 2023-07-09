@@ -1,0 +1,22 @@
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;  }
+  
+  .react__slick__slider__parent .slick-prev:before, .slick-next:before {
+    color: black;
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .slick-prev {
+      left: 6% !important;
+    
+    }
+    .slick-next {
+      right: 6% !important;
+    ;  }
+    }

@@ -1,0 +1,89 @@
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container .banner{
+    background:linear-gradient(-55deg, #6f63e6 29%,#0f143c  29.1%, #6f63e6 68%, #0f143c 68.1%);
+    background: linear-gradient(-55deg, #10143f 29%,#0f143c 29.1%, #201a5c 68%, #0f143c 68.1%);
+    border-radius: 5px;
+    margin:10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #0005;
+    overflow: hidden;
+}
+
+.banner-container .banner .shoe{
+    flex:1 1 250px;
+    padding:15px;
+    text-align: center;
+}
+
+.banner-container .banner .shoe img{
+    width:80%;
+}
+
+.banner-container .banner .content{
+    flex:1 1 250px;
+    display: flex;
+    gap:1.5rem;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    padding:10px;
+    
+}
+
+.banner-container .banner .content span{
+    color:#eee;
+    font-size: 25px;
+}
+
+.banner-container .banner .content h3{
+    color:#fff ;
+    font-size: 2.6rem;
+    font-family: monospace;
+}
+.banner-container .banner .content a:hover,.banner-container .banner .content a:active{
+    background-color: #002299 !important;
+    color: white !important;
+}
+
+.banner-container .banner .content p{
+    color:#eee;
+    /* max-width: 45rem; */
+   
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Poppins';
+    color: #fff;
+    line-height: 1.4rem;
+    padding:10px 0;
+}
+
+
+.banner-container .banner .women{
+    position: relative;
+    bottom: -33px;
+    padding:10px;
+    flex:1 1 250px;
+}
+
+.banner-container .banner .women img{
+    width:100%;
+}
+
+@media (max-width:768px){
+    .banner-container .banner .women{
+        display: none;
+    }
+}
+
+
+

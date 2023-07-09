@@ -1,0 +1,160 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+/* ---Sidebar css */
+.text-primary {
+  color: #eef0f4 !important;
+  font-weight: bold;
+}
+.btn-primary {
+  border-color: #5a8dee !important;
+  background-color: #5a8dee !important;
+  color: #fff;
+}
+.shadow-md {
+  box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+}
+.navbar {
+  border-radius: 5px;
+  background-color: #0f143c;
+}
+.sidebar {
+  width: 280px;
+  min-height: 100vh;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+  background-color: #313467;
+  /* background-color: #313467; */
+  background: linear-gradient(108deg, #293846 0%, #293846 100%);
+  background: linear-gradient(222deg, #293846 44%, #293846 100%);
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 1;
+  transition: 0.5s;
+}
+.sidebar.active {
+  left: 0;
+}
+.sd-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #1d2637;
+  color: #f9f1f1;
+}
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+.sd-body {
+  padding: 15px;
+  max-height: calc(100vh - 67px);
+  overflow-x: hidden;
+}
+.sd-body ul {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  padding-left: 35px;
+}
+.sd-body ul li {
+  list-style: none;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #eef0f4;
+  gap: 1rem;
+  
+
+}
+.wrap {
+  transition: 1s all ease-in-out ;
+  cursor: pointer;
+}
+.wrap :hover {
+  transform: scale(1.1);
+}
+
+.brand-logo{
+  width: 2.6rem;
+  transition: all ease 0.5s;
+}
+.brand-logo:hover{
+  transform: scale(1.09);
+}
+
+
+.sd-body ul {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+}
+.sd-body ul li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.sd-body ul li .sd-link {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  width: 100%;
+  padding: 10px 16px;
+  color:  #6F63E6;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s all ease-in-out;
+
+}
+.sd-body ul li  :hover {
+  color: #fff;
+  transform: scale(1.1);
+  margin: 0;
+  padding: 0%;
+  cursor: pointer;
+
+  justify-content: space-between;
+
+}
+.sd-body ul li{
+  height: auto;
+  width :100%;
+  padding: 10px;
+
+  place-items: centre;
+  font-size: large;
+  color :white;
+  border:#313467;
+  border-width: 100%;
+}
+.sd-body ul li #title{
+ font-size: medium;
+ margin: 0;
+ padding: 0;
+
+}
+.sd-body ul li #icon{
+  flex :30%
+}
